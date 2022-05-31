@@ -10,13 +10,13 @@ const router = express.Router()
 
 router.get('/', log, getBoards)
 router.get('/:boardId', getBoardById)
-router.post('/', requireAuth, addBoard)
-router.put('/', requireAuth, updateBoard)
+router.post('/', addBoard)
+router.put('/', updateBoard)
 router.delete('/:boardId', requireAuth, removeBoard)
-router.post('/:boardId/group/:groupId', requireAuth, addGroup)
-router.put('/:boardId/group/', requireAuth, updateGroup)
-router.post('/:boardId/group/:groupId/task/:taskId', requireAuth, addTask)
-router.put('/:boardId/group/:groupId/task', requireAuth, updateTask)
+router.post('/:boardId/group/:groupId', addGroup)
+router.put('/:boardId/group', updateGroup)
+router.post('/:boardId/group/:groupId/task/:taskId', addTask)
+router.put('/:boardId/group/:groupId/task', updateTask)
 
 
 module.exports = router

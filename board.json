@@ -1,5 +1,4 @@
 [{ 
-    "_id" : ObjectId("6294a678734685649ce3c5f5"), 
     "title" : "Fashion designer", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -81,7 +80,7 @@
     ], 
     "groups" : [
         {
-            "id" : "g101", 
+            "id" : "g113", 
             "title" : "In Progress", 
             "archivedAt" : 1589983468418.0, 
             "tasks" : [
@@ -145,7 +144,7 @@
             }
         }, 
         {
-            "id" : "g102", 
+            "id" : "g114", 
             "title" : "QA", 
             "tasks" : [
                 {
@@ -346,7 +345,7 @@
     ], 
     "groups" : [
         {
-            "id" : "g101", 
+            "id" : "g115", 
             "title" : "In Progress", 
             "archivedAt" : 1589983468418.0, 
             "tasks" : [
@@ -422,7 +421,7 @@
             }
         }, 
         {
-            "id" : "g102", 
+            "id" : "g116", 
             "title" : "QA", 
             "tasks" : [
                 {
@@ -522,7 +521,7 @@
             }
         }
     ]
-}
+},
 { 
     "_id" : "b103", 
     "title" : "Grow process", 
@@ -606,7 +605,7 @@
     ], 
     "groups" : [
         {
-            "id" : "g101", 
+            "id" : "g117", 
             "title" : "In Progress", 
             "archivedAt" : 1589983468418.0, 
             "tasks" : [
@@ -680,7 +679,7 @@
             }
         }, 
         {
-            "id" : "g102", 
+            "id" : "g118", 
             "title" : "QA", 
             "tasks" : [
                 {
@@ -782,9 +781,8 @@
             }
         }
     ]
-}
+},
 { 
-    "_id" : ObjectId("6294a678734685649ce3c5f7"), 
     "title" : "Dev Master", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -866,7 +864,7 @@
     ], 
     "groups" : [
         {
-            "id" : "g101", 
+            "id" : "g119", 
             "title" : "In Progress", 
             "archivedAt" : 1589983468418.0, 
             "tasks" : [
@@ -927,7 +925,7 @@
             }
         }, 
         {
-            "id" : "g102", 
+            "id" : "g120", 
             "title" : "QA", 
             "tasks" : [
                 {
@@ -1041,9 +1039,8 @@
             }
         }
     ]
-}
+},
 { 
-    "_id" : ObjectId("6294a678734685649ce3c5f8"), 
     "title" : "Free Spirit", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -1125,7 +1122,7 @@
     ], 
     "groups" : [
         {
-            "id" : "g101", 
+            "id" : "g121", 
             "title" : "In Progress", 
             "archivedAt" : 1589983468418.0, 
             "tasks" : [
@@ -1186,7 +1183,7 @@
             }
         }, 
         {
-            "id" : "g102", 
+            "id" : "g122", 
             "title" : "QA", 
             "tasks" : [
                 {
@@ -1288,9 +1285,8 @@
             }
         }
     ]
-}
+},
 { 
-    "_id" : ObjectId("6294a678734685649ce3c5f9"), 
     "title" : "Web Development", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -1733,9 +1729,8 @@
             }
         }
     ]
-}
+},
 { 
-    "_id" : ObjectId("6294b8e24bbd713b4c6d0466"), 
     "title" : "Mongo board", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -1817,7 +1812,7 @@
     ], 
     "groups" : [
         {
-            "id" : "g101", 
+            "id" : "g123", 
             "title" : "In Progress", 
             "archivedAt" : 1589983468418.0, 
             "tasks" : [
@@ -1881,7 +1876,7 @@
             }
         }, 
         {
-            "id" : "g102", 
+            "id" : "g124", 
             "title" : "QA", 
             "tasks" : [
                 {
@@ -1986,7 +1981,7 @@
         {
             "id" : "a101", 
             "txt" : "Changed Color", 
-            "createdAt" : NumberInt(154514), 
+            "createdAt" : 154514, 
             "byMember" : {
                 "_id" : "u101", 
                 "fullname" : "Barak Braun", 

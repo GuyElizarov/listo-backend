@@ -8,6 +8,7 @@ async function login(req, res) {
         const loginToken = authService.getLoginToken(user)
         logger.info('User login: ', user)
         res.cookie('loginToken', loginToken)
+        console.log('login ~ loginToken', loginToken)
         res.json(user)
     } catch (err) {
         logger.error('Failed to Login ' + err)

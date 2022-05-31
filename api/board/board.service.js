@@ -1,6 +1,9 @@
+const  utilService = require('../../services/util.service')
+
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
+
 
 async function query(filterBy) {
     try {
@@ -39,8 +42,8 @@ async function remove(boardId) {
 async function add(board) {
     try {
         const collection = await dbService.getCollection('board')
-        const addedBoard = await collection.insertOne(board)
-        return addedBoard
+        const res = await collection.insertOne(board)
+        return res.ops[0]
     } catch (err) {
         logger.error('cannot insert board', err)
         throw err
@@ -53,6 +56,7 @@ async function update(board) {
         delete board._id
         const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: id }, { $set: { ...board } })
+        board._id = id
         return board
     } catch (err) {
         logger.error(`cannot update board ${boardId}`, err)
@@ -70,21 +74,27 @@ async function updateGroup(groupToUpdate, boardId) {
     const board = await getById(boardId)
     let groupIdx = board.groups.findIndex(currGroup => currGroup.id === groupToUpdate.id)
     board.groups.splice(groupIdx, 1, groupToUpdate)
+    // const newActivity = _createActivity('updated', groupToUpdate, loggedinUser)
+    // board.activities.unshift(newActivity)
     return await update(board)
 }
 
-async function addTask(newTask, boardId, groupId) {
+async function addTask(newTask, boardId, groupId, loggedinUser) {
     const board = await getById(boardId)
     let group = board.groups.find(group => group.id === groupId)
     group.tasks.push(newTask)
+    const newActivity = _createActivity('added a task', newTask, loggedinUser)
+    board.activities.unshift(newActivity)
     return await update(board)
 }
 
-async function updateTask(taskToUpdate, boardId, groupId) {
+async function updateTask(taskToUpdate, boardId, groupId, loggedinUser) {
     const board = await getById(boardId)
     let group = board.groups.find(group => group.id === groupId)
     const taskIdx = group.tasks.findIndex(task => task.id === taskToUpdate.id)
     group.tasks.splice(taskIdx, 1, taskToUpdate)
+    const newActivity = _createActivity('updated a task', taskToUpdate, loggedinUser)
+    board.activities.unshift(newActivity)
     return await update(board)
 }
 
@@ -108,4 +118,16 @@ function _buildCriteria(filterBy) {
     return criteria
 }
 
-
+function _createActivity(txt, task, loggedinUser) {
+    return {
+        byMember: loggedinUser,
+        id: utilService.makeId(),
+        createdAt: Date.now(),
+        txt,
+        task: {
+            id: task.id,
+            title: task.title,
+            txt: txt
+        },
+    }
+}

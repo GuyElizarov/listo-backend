@@ -1,12 +1,13 @@
 const boardService = require('./board.service.js');
 const logger = require('../../services/logger.service')
+const authService = require('../auth/auth.service')
+
 
 // GET LIST
 async function getBoards(req, res) {
     try {
         logger.debug('Getting Boards')
         var query = req.query;
-        console.log('getBoards ~ query', query)
         const boards = await boardService.query(query)
         res.json(boards);
     } catch (err) {
@@ -90,9 +91,10 @@ async function updateGroup(req, res) {
 
 async function addTask(req, res) {
     try {
+        const loggedinUser = authService.validateToken(req.cookies.loginToken)
         const newTask = req.body;
         const { boardId, groupId } = req.params;
-        const updatedBoard = await boardService.addTask(newTask, boardId, groupId)
+        const updatedBoard = await boardService.addTask(newTask, boardId, groupId, loggedinUser)
         res.send(updatedBoard)
     } catch (err) {
         logger.error('Failed to add task', err)
@@ -102,9 +104,10 @@ async function addTask(req, res) {
 
 async function updateTask(req, res) {
     try {
+        const loggedinUser = authService.validateToken(req.cookies.loginToken)
         const taskToUpdate = req.body;
         const { boardId, groupId } = req.params;
-        const updatedBoard = await boardService.updateTask(taskToUpdate, boardId, groupId)
+        const updatedBoard = await boardService.updateTask(taskToUpdate, boardId, groupId , loggedinUser)
 
         res.send(updatedBoard)
     } catch (err) {
@@ -112,6 +115,7 @@ async function updateTask(req, res) {
         res.status(500).send({ err: 'Failed to update task' })
     }
 }
+
 
 module.exports = {
     getBoards,

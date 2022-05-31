@@ -93,6 +93,14 @@ async function updateTask(taskToUpdate, boardId, groupId, loggedinUser) {
     let group = board.groups.find(group => group.id === groupId)
     const taskIdx = group.tasks.findIndex(task => task.id === taskToUpdate.id)
     group.tasks.splice(taskIdx, 1, taskToUpdate)
+    if(!loggedinUser) loggedinUser=
+        {
+            "_id" : "62953c7742e472253897fe9e", 
+            "fullname" : "Guest", 
+            "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guest_he90su.jpg"
+        }
+
+    
     const newActivity = _createActivity('updated a task', taskToUpdate, loggedinUser)
     board.activities.unshift(newActivity)
     return await update(board)

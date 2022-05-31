@@ -3,7 +3,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -54,25 +54,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -87,6 +87,7 @@
                 {
                     "id" : "t101", 
                     "title" : "Replace logo", 
+                    "comments": [],
                     "description" : "need to replace logo argently", 
                     "style" : {
                         "color" : null, 
@@ -113,12 +114,14 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
                     "memberIds" : [
 
                     ]
+
                 }, 
                 {
                     "id" : "t103", 
@@ -131,6 +134,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -160,6 +164,7 @@
 
                     ], 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ]
@@ -175,7 +180,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -216,10 +221,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u101", 
-                        "u102", 
-                        "u103", 
-                        "u104"
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953ccb42e472253897fea1", 
+                        "62953cd942e472253897fea2"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -227,7 +232,7 @@
                     ], 
                     "dueDate" : 16156215211.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -251,7 +256,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514.0, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 
@@ -268,7 +273,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -319,25 +324,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -379,7 +384,8 @@
                     ], 
                     "memberIds" : [
 
-                    ]
+                    ],
+                    "comments": []
                 }, 
                 {
                     "id" : "t102", 
@@ -390,6 +396,7 @@
                         "isCoverSizeBig" : false
                     }, 
                     "dueDate" : null, 
+                    "comments": [],
                     "archivedAt" : null, 
                     "memberIds" : [
 
@@ -408,6 +415,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "memberIds" : [
 
                     ], 
@@ -435,7 +443,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -476,10 +484,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u100", 
-                        "u101", 
-                        "u102", 
-                        "u104"
+                        "62953c7742e472253897fe9e", 
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953cd942e472253897fea2"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -488,7 +496,7 @@
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 16156215211.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -511,7 +519,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514.0, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 
@@ -528,7 +536,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -579,25 +587,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -619,6 +627,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
                         {
                             "title" : "Borders", 
@@ -649,6 +658,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -671,7 +681,8 @@
                     ], 
                     "memberIds" : [
 
-                    ]
+                    ],
+                    "comments": []
                 }
             ], 
             "style" : {
@@ -692,6 +703,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -710,7 +722,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -735,10 +747,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u100", 
-                        "u101", 
-                        "u102", 
-                        "u104"
+                        "62953c7742e472253897fe9e", 
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953cd942e472253897fea2"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -747,7 +759,7 @@
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 16156215211.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -771,7 +783,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514.0, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 
@@ -787,7 +799,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -838,25 +850,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -878,6 +890,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -895,6 +908,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -912,6 +926,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -938,6 +953,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -956,7 +972,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -997,15 +1013,15 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u100", 
-                        "u101", 
-                        "u102", 
-                        "u103"
+                        "62953c7742e472253897fe9e", 
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953ccb42e472253897fea1"
                     ], 
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 16156215211.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -1029,7 +1045,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514.0, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 
@@ -1045,7 +1061,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -1096,25 +1112,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -1136,6 +1152,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1153,6 +1170,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1170,6 +1188,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1196,6 +1215,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1214,7 +1234,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -1239,10 +1259,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u100", 
-                        "u101", 
-                        "u102", 
-                        "u104"
+                        "62953c7742e472253897fe9e", 
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953cd942e472253897fea2"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -1251,7 +1271,7 @@
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 16156215211.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -1275,7 +1295,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514.0, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 
@@ -1291,7 +1311,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -1342,25 +1362,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -1382,6 +1402,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1402,6 +1423,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1412,6 +1434,7 @@
                 {
                     "id" : "t303", 
                     "title" : "Make UI Look Pretty", 
+                    "comments": [],
                     "style" : {
                         "color" : null, 
                         "imgUrl" : null, 
@@ -1445,11 +1468,12 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
                     "memberIds" : [
-                        "u101"
+                        "62953ca542e472253897fe9f"
                     ]
                 }, 
                 {
@@ -1463,7 +1487,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -1497,7 +1521,7 @@
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 1653806055000.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -1528,6 +1552,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1546,7 +1571,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -1571,10 +1596,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u101", 
-                        "u102", 
-                        "u103", 
-                        "u104"
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953ccb42e472253897fea1", 
+                        "62953cd942e472253897fea2"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -1583,7 +1608,7 @@
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 1651213844000.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -1644,7 +1669,8 @@
                     ], 
                     "memberIds" : [
 
-                    ]
+                    ],
+                    "comments": []
                 }, 
                 {
                     "id" : "t645", 
@@ -1657,7 +1683,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -1682,10 +1708,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u100", 
-                        "u101", 
-                        "u102", 
-                        "u103"
+                        "62953c7742e472253897fe9e", 
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953ccb42e472253897fea1"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -1695,7 +1721,7 @@
                     "createdAt" : 1590999730348.0, 
                     "dueDate" : 1648535444000.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -1719,7 +1745,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514.0, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 
@@ -1735,7 +1761,7 @@
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
     "createdBy" : {
-        "_id" : "u101", 
+        "_id" : "62953ca542e472253897fe9f", 
         "fullname" : "Barak Braun", 
         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
     }, 
@@ -1786,25 +1812,25 @@
     ], 
     "members" : [
         {
-            "id" : "u101", 
+            "id" : "62953ca542e472253897fe9f", 
             "fullname" : "Barak Braun", 
             "username" : "barak", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
         }, 
         {
-            "id" : "u102", 
+            "id" : "62953cb842e472253897fea0", 
             "fullname" : "Guy Elizarov", 
             "username" : "guy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
         }, 
         {
-            "id" : "u103", 
+            "id" : "62953ccb42e472253897fea1", 
             "fullname" : "Itai Rotstein", 
             "username" : "itai", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/itai_thvoqr.jpg"
         }, 
         {
-            "id" : "u104", 
+            "id" : "62953cd942e472253897fea2", 
             "fullname" : "Tommy Irmia", 
             "username" : "tommy", 
             "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653410100/tommy_rnax4n.jpg"
@@ -1827,6 +1853,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1845,6 +1872,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1863,6 +1891,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "comments": [],
                     "checklists" : [
 
                     ], 
@@ -1888,6 +1917,7 @@
                         "isCoverSizeBig" : false
                     }, 
                     "dueDate" : null, 
+                    "comments": [],
                     "memberIds" : [
 
                     ], 
@@ -1907,7 +1937,7 @@
                             "txt" : "I started testing it, will finish by tomorrow noon...", 
                             "createdAt" : 1590999817436.0, 
                             "byMember" : {
-                                "_id" : "u101", 
+                                "_id" : "62953ca542e472253897fe9f", 
                                 "fullname" : "Barak Braun", 
                                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
                             }
@@ -1948,10 +1978,10 @@
                         }
                     ], 
                     "memberIds" : [
-                        "u101", 
-                        "u102", 
-                        "u103", 
-                        "u104"
+                        "62953ca542e472253897fe9f", 
+                        "62953cb842e472253897fea0", 
+                        "62953ccb42e472253897fea1", 
+                        "62953cd942e472253897fea2"
                     ], 
                     "labelIds" : [
                         "l101", 
@@ -1959,7 +1989,7 @@
                     ], 
                     "dueDate" : 16156215211.0, 
                     "byMember" : {
-                        "_id" : "u102", 
+                        "_id" : "62953cb842e472253897fea0", 
                         "username" : "guy", 
                         "fullname" : "Guy Elizarov", 
                         "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guy_r35jqz.jpg"
@@ -1983,7 +2013,7 @@
             "txt" : "Changed Color", 
             "createdAt" : 154514, 
             "byMember" : {
-                "_id" : "u101", 
+                "_id" : "62953ca542e472253897fe9f", 
                 "fullname" : "Barak Braun", 
                 "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/barak_v05fhi.jpg"
             }, 

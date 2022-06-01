@@ -101,7 +101,12 @@
                     ], 
                     "memberIds" : [
 
-                    ]
+                    ],
+                    "attachments": [{
+                        "title" : "listo",
+                        "url" : "https://res.cloudinary.com/bbarak94/image/upload/v1654014704/farbrqnkvqavh6cl8jfj.jpg",
+                        "createdAt" : "1589983468418"
+                    }]
                 }, 
                 {
                     "id" : "t102", 
@@ -114,6 +119,11 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [{
+                        "title" : "listo",
+                        "url" : "https://res.cloudinary.com/bbarak94/image/upload/v1654014704/farbrqnkvqavh6cl8jfj.jpg",
+                        "createdAt" : "1589983468418"
+                    }],
                     "comments": [],
                     "checklists" : [
 
@@ -135,6 +145,7 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "comments": [],
+                    "attachments": [],
                     "checklists" : [
 
                     ], 
@@ -164,6 +175,7 @@
 
                     ], 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -174,6 +186,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -364,6 +377,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "checklists" : [
                         {
                             "id" : "YEcccaa", 
@@ -397,6 +411,7 @@
                     }, 
                     "dueDate" : null, 
                     "comments": [],
+                    "attachments": [],
                     "archivedAt" : null, 
                     "memberIds" : [
 
@@ -415,6 +430,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "memberIds" : [
 
@@ -437,6 +453,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -531,7 +548,6 @@
     ]
 },
 { 
-    "_id" : "b103", 
     "title" : "Grow process", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -620,6 +636,7 @@
                 {
                     "id" : "t101", 
                     "title" : "Replace logo", 
+                    "attachments": [],
                     "style" : {
                         "color" : null, 
                         "imgUrl" : "https://www.howtogeek.com/wp-content/uploads/csit/2021/01/24b43beb.jpg?height=200p&trim=2,2,2,2", 
@@ -651,6 +668,7 @@
                 {
                     "id" : "t102", 
                     "title" : "Add Samples", 
+                    "attachments": [],
                     "style" : {
                         "color" : null, 
                         "imgUrl" : null, 
@@ -669,6 +687,7 @@
                 {
                     "id" : "t103", 
                     "title" : "Make JSON Look Pretty", 
+                    "attachments": [],
                     "style" : {
                         "color" : null, 
                         "imgUrl" : null, 
@@ -703,6 +722,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -716,6 +736,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -889,6 +910,7 @@
                         "isCoverSizeBig" : false
                     }, 
                     "dueDate" : null, 
+                    "attachments": [],
                     "archivedAt" : null, 
                     "comments": [],
                     "checklists" : [
@@ -908,6 +930,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -926,6 +949,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -946,6 +970,7 @@
                 {
                     "id" : "t677828", 
                     "title" : "Test Filter Component", 
+                    "attachments": [],
                     "style" : {
                         "color" : null, 
                         "imgUrl" : null, 
@@ -965,6 +990,7 @@
                     "id" : "t104", 
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
+                    "attachments": [],
                     "description" : "description", 
                     "comments" : [
                         {
@@ -1152,6 +1178,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -1170,6 +1197,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -1187,6 +1215,7 @@
                         "isCoverSizeBig" : false
                     }, 
                     "dueDate" : null, 
+                    "attachments": [],
                     "archivedAt" : null, 
                     "comments": [],
                     "checklists" : [
@@ -1216,6 +1245,7 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "comments": [],
+                    "attachments": [],
                     "checklists" : [
 
                     ], 
@@ -1228,6 +1258,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -1403,6 +1434,7 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "comments": [],
+                    "attachments": [],
                     "checklists" : [
 
                     ], 
@@ -1424,6 +1456,7 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "comments": [],
+                    "attachments": [],
                     "checklists" : [
 
                     ], 
@@ -1441,6 +1474,7 @@
                         "isCoverSizeBig" : false
                     }, 
                     "dueDate" : null, 
+                    "attachments": [],
                     "archivedAt" : null, 
                     "checklists" : [
 
@@ -1468,6 +1502,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -1481,6 +1516,7 @@
                     "title" : "Test responsive design", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -1545,6 +1581,7 @@
                 {
                     "id" : "t313", 
                     "title" : "Animated logo on header", 
+                    "attachments": [],
                     "style" : {
                         "color" : null, 
                         "imgUrl" : null, 
@@ -1565,6 +1602,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -1639,6 +1677,7 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "attachments": [],
                     "checklists" : [
                         {
                             "id" : "YE2561mF", 
@@ -1677,6 +1716,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 
@@ -1854,6 +1894,7 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "comments": [],
+                    "attachments": [],
                     "checklists" : [
 
                     ], 
@@ -1873,6 +1914,7 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "comments": [],
+                    "attachments": [],
                     "checklists" : [
 
                     ], 
@@ -1890,7 +1932,8 @@
                         "isCoverSizeBig" : false
                     }, 
                     "dueDate" : null, 
-                    "archivedAt" : null, 
+                    "archivedAt" : null,
+                    "attachments": [],
                     "comments": [],
                     "checklists" : [
 
@@ -1918,6 +1961,7 @@
                     }, 
                     "dueDate" : null, 
                     "comments": [],
+                    "attachments": [],
                     "memberIds" : [
 
                     ], 
@@ -1931,6 +1975,7 @@
                     "title" : "Test headers new button", 
                     "status" : "in-progress", 
                     "description" : "description", 
+                    "attachments": [],
                     "comments" : [
                         {
                             "id" : "ZdPnm", 

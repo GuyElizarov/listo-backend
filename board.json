@@ -177,6 +177,7 @@
                     "archivedAt" : null, 
                     "attachments": [],
                     "comments": [],
+                    "labelIds" : [],
                     "checklists" : [
 
                     ]
@@ -281,7 +282,6 @@
     ]
 },
 { 
-    "_id" : 1590999817436.0, 
     "title" : "Ornamental board", 
     "archivedAt" : null, 
     "createdAt" : 1589983468418.0, 
@@ -431,7 +431,9 @@
                     "dueDate" : null, 
                     "archivedAt" : null, 
                     "attachments": [],
+                    "labelIds" : [],
                     "comments": [],
+                    "activities" : [],
                     "memberIds" : [
 
                     ], 
@@ -520,7 +522,7 @@
                     }, 
                     "style" : {
                         "color" : "#7BC86C", 
-                        "imgUrl" : null
+                        "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrRPMBBBa3Z3VH00Bx6aCk8aOKzpOTmfjOmBG2jf1mOW5mG4Ri_AVZA1JybkrjXyE1HBc&usqp=CAU"
                     }, 
                     "archivedAt" : null
                 }
@@ -695,6 +697,8 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "labelIds" : [],
+                    "activities" : [],
                     "checklists" : [
 
                     ], 
@@ -949,6 +953,8 @@
                     }, 
                     "dueDate" : null, 
                     "archivedAt" : null, 
+                    "labelIds" : [],
+                    "activities": [],
                     "attachments": [],
                     "comments": [],
                     "checklists" : [
@@ -1953,6 +1959,7 @@
             "tasks" : [
                 {
                     "id" : "t55167", 
+                    "labelIds" : [],
                     "title" : "Test Filter Component", 
                     "style" : {
                         "color" : null, 

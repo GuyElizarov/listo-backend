@@ -67,9 +67,10 @@ async function removeBoard(req, res) {
 
 async function addGroup(req, res) {
     try {
+        const loggedinUser = authService.validateToken(req.cookies.loginToken)
         const newGroup = req.body;
         const boardId = req.params.boardId;
-        const updatedBoard = await boardService.addGroup(newGroup, boardId)
+        const updatedBoard = await boardService.addGroup(newGroup, boardId, loggedinUser)
         res.send(updatedBoard)
     } catch (err) {
         logger.error('Failed to add group', err)
@@ -79,9 +80,10 @@ async function addGroup(req, res) {
 
 async function updateGroup(req, res) {
     try {
+        const loggedinUser = authService.validateToken(req.cookies.loginToken)
         const groupToUpdate = req.body;
         const boardId = req.params.boardId;
-        const updatedBoard = await boardService.updateGroup(groupToUpdate, boardId)
+        const updatedBoard = await boardService.updateGroup(groupToUpdate, boardId, loggedinUser)
         res.send(updatedBoard)
     } catch (err) {
         logger.error('Failed to update group', err)
@@ -107,7 +109,7 @@ async function updateTask(req, res) {
         const loggedinUser = authService.validateToken(req.cookies.loginToken)
         const taskToUpdate = req.body;
         const { boardId, groupId } = req.params;
-        const updatedBoard = await boardService.updateTask(taskToUpdate, boardId, groupId , loggedinUser)
+        const updatedBoard = await boardService.updateTask(taskToUpdate, boardId, groupId, loggedinUser)
 
         res.send(updatedBoard)
     } catch (err) {

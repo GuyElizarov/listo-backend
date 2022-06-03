@@ -1,4 +1,4 @@
-const  utilService = require('../../services/util.service')
+const utilService = require('../../services/util.service')
 
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
@@ -64,28 +64,28 @@ async function update(board) {
     }
 }
 
-async function addGroup(newGroup, boardId) {
+async function addGroup(newGroup, boardId, loggedinUser) {
     const board = await getById(boardId)
     board.groups.push(newGroup)
-    return await update(board)
+    const boardToUpdate = _addActivityToBoard('added a group to', newGroup, loggedinUser, board, 'group')
+    return await update(boardToUpdate)
 }
 
-async function updateGroup(groupToUpdate, boardId) {
+async function updateGroup(groupToUpdate, boardId, loggedinUser) {
     const board = await getById(boardId)
     let groupIdx = board.groups.findIndex(currGroup => currGroup.id === groupToUpdate.id)
     board.groups.splice(groupIdx, 1, groupToUpdate)
-    // const newActivity = _createActivity('updated', groupToUpdate, loggedinUser)
-    // board.activities.unshift(newActivity)
-    return await update(board)
+    const boardToUpdate = _addActivityToBoard('updated a group from', groupToUpdate, loggedinUser, board, 'group')
+    return await update(boardToUpdate)
 }
 
 async function addTask(newTask, boardId, groupId, loggedinUser) {
     const board = await getById(boardId)
     let group = board.groups.find(group => group.id === groupId)
     group.tasks.push(newTask)
-    const newActivity = _createActivity('added a task', newTask, loggedinUser)
-    board.activities.unshift(newActivity)
-    return await update(board)
+    const boardToUpdate = _addActivityToBoard('added a task', newTask, loggedinUser, board)
+    return await update(boardToUpdate)
+
 }
 
 async function updateTask(taskToUpdate, boardId, groupId, loggedinUser) {
@@ -93,17 +93,8 @@ async function updateTask(taskToUpdate, boardId, groupId, loggedinUser) {
     let group = board.groups.find(group => group.id === groupId)
     const taskIdx = group.tasks.findIndex(task => task.id === taskToUpdate.id)
     group.tasks.splice(taskIdx, 1, taskToUpdate)
-    if(!loggedinUser) loggedinUser=
-        {
-            "_id" : "62953c7742e472253897fe9e", 
-            "fullname" : "Guest", 
-            "imgUrl" : "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guest_he90su.jpg"
-        }
-
-    
-    const newActivity = _createActivity('updated a task', taskToUpdate, loggedinUser)
-    board.activities.unshift(newActivity)
-    return await update(board)
+    const boardToUpdate = _addActivityToBoard('updated a task', taskToUpdate, loggedinUser, board)
+    return await update(boardToUpdate)
 }
 
 module.exports = {
@@ -126,16 +117,29 @@ function _buildCriteria(filterBy) {
     return criteria
 }
 
-function _createActivity(txt, task, loggedinUser) {
+function _addActivityToBoard(txt, entity, loggedinUser, board, type) {
+    const boardToUpdate = { ...board }
+    if (!loggedinUser) loggedinUser = {
+        "_id": "62953c7742e472253897fe9e",
+        "fullname": "Guest",
+        "imgUrl": "https://res.cloudinary.com/bbarak94/image/upload/v1653409951/guest_he90su.jpg"
+    }
+    const newActivity = _createActivity(txt, entity, loggedinUser, type)
+    boardToUpdate.activities.unshift(newActivity)
+    return boardToUpdate
+}
+
+function _createActivity(txt, entity, loggedinUser, type = 'task') {
     return {
         byMember: loggedinUser,
         id: utilService.makeId(),
         createdAt: Date.now(),
         txt,
-        task: {
-            id: task.id,
-            title: task.title,
-            txt: txt
+        [type]: {
+            id: entity.id,
+            title: entity.title,
+            txt
         },
     }
 }
+

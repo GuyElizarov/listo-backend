@@ -73,7 +73,7 @@ async function addGroup(newGroup, boardId, loggedinUser) {
 
 async function updateGroup(groupToUpdate, boardId, loggedinUser) {
     const board = await getById(boardId)
-    let groupIdx = board.groups.findIndex(currGroup => currGroup.id === groupToUpdate.id)
+    const groupIdx = board.groups.findIndex(currGroup => currGroup.id === groupToUpdate.id)
     board.groups.splice(groupIdx, 1, groupToUpdate)
     const boardToUpdate = _addActivityToBoard('updated a group from', groupToUpdate, loggedinUser, board, 'group')
     return await update(boardToUpdate)
@@ -81,32 +81,19 @@ async function updateGroup(groupToUpdate, boardId, loggedinUser) {
 
 async function addTask(newTask, boardId, groupId, loggedinUser) {
     const board = await getById(boardId)
-    let group = board.groups.find(group => group.id === groupId)
+    const group = board.groups.find(group => group.id === groupId)
     group.tasks.push(newTask)
     const boardToUpdate = _addActivityToBoard('added a task', newTask, loggedinUser, board)
     return await update(boardToUpdate)
-
 }
 
 async function updateTask(taskToUpdate, boardId, groupId, loggedinUser) {
     const board = await getById(boardId)
-    let group = board.groups.find(group => group.id === groupId)
+    const group = board.groups.find(group => group.id === groupId)
     const taskIdx = group.tasks.findIndex(task => task.id === taskToUpdate.id)
     group.tasks.splice(taskIdx, 1, taskToUpdate)
     const boardToUpdate = _addActivityToBoard('updated a task', taskToUpdate, loggedinUser, board)
     return await update(boardToUpdate)
-}
-
-module.exports = {
-    remove,
-    query,
-    getById,
-    add,
-    update,
-    addGroup,
-    updateGroup,
-    addTask,
-    updateTask
 }
 
 function _buildCriteria(filterBy) {
@@ -143,3 +130,14 @@ function _createActivity(txt, entity, loggedinUser, type = 'task') {
     }
 }
 
+module.exports = {
+    remove,
+    query,
+    getById,
+    add,
+    update,
+    addGroup,
+    updateGroup,
+    addTask,
+    updateTask
+}

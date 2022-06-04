@@ -3,7 +3,6 @@ const logger = require('../../services/logger.service')
 const authService = require('../auth/auth.service')
 
 
-// GET LIST
 async function getBoards(req, res) {
     try {
         logger.debug('Getting Boards')
@@ -16,7 +15,6 @@ async function getBoards(req, res) {
     }
 }
 
-// GET BY ID 
 async function getBoardById(req, res) {
     try {
         const boardId = req.params.boardId;
@@ -28,7 +26,6 @@ async function getBoardById(req, res) {
     }
 }
 
-// POST (add board)
 async function addBoard(req, res) {
     try {
         const board = req.body;
@@ -40,7 +37,6 @@ async function addBoard(req, res) {
     }
 }
 
-// PUT (Update board)
 async function updateBoard(req, res) {
     try {
         const board = req.body;
@@ -52,7 +48,6 @@ async function updateBoard(req, res) {
     }
 }
 
-// DELETE (Remove board)
 async function removeBoard(req, res) {
     try {
         const boardId = req.params.boardId;
@@ -63,7 +58,6 @@ async function removeBoard(req, res) {
         res.status(500).send({ err: 'Failed to remove board' })
     }
 }
-
 
 async function addGroup(req, res) {
     try {
